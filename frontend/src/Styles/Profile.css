@@ -1,0 +1,136 @@
+.profile-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  backdrop-filter: blur(10px);
+}
+
+.profile-card1 {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 380px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-card1:hover {
+  transform: translateY(-5px);
+}
+
+.profile-pic1 {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-pic1:hover {
+  transform: scale(1.1);
+}
+
+.profile-details1 h2 {
+  margin: 10px 0;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.profile-details1 p {
+  font-size: 14px;
+  color: #e0e0e0;
+  opacity: 0.8;
+}
+
+/* Buttons */
+.profile-actions1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+} */
+
+/* Edit Button */
+.edit-btn1 {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+}
+
+.edit-btn1:hover {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+/* Change Password Button */
+.password-btn1 {
+  background: linear-gradient(135deg, #ffcc00, #ff9f00);
+  color: white;
+}
+
+.password-btn1:hover {
+  background: linear-gradient(135deg, #ff9500, #ff7b00);
+}
+
+/* Logout Button */
+.logout-btn1 {
+  background: linear-gradient(135deg, #ff4d4d, #ff1e1e);
+  color: white;
+}
+
+.logout-btn1:hover {
+  background: linear-gradient(135deg, #d63434, #b30000);
+}
+
+/* Edit Form */
+.edit-form1 input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.edit-form1 input:focus {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Save & Cancel Buttons */
+.save-btn1 {
+  background: linear-gradient(135deg, #28a745, #23d160);
+  color: white;
+}
+
+.save-btn1:hover {
+  background: linear-gradient(135deg, #1d923a, #1db54d);
+}
+
+.cancel-btn1 {
+  background: linear-gradient(135deg, #6c757d, #5a6268);
+  color: white;
+}
+
+.cancel-btn1:hover {
+  background: linear-gradient(135deg, #565e64, #4a4f54);
+}
